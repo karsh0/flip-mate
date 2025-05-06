@@ -1,12 +1,8 @@
 
 import './App.css'
-import Content from './components/content'
-import Features from './components/features'
 import Footer from './components/footer'
 import Hero from './components/hero'
-import Integration from './components/integrations'
 import Navbar from './components/navbar'
-import NewsLetter from './components/newsletter'
 
 function App() {
   return <div className='w-full min-w-0 overflow-hidden flex flex-col justify-center items-center'>

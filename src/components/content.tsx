@@ -1,5 +1,3 @@
-import { NotepadText } from "lucide-react";
-import Note from "./note";
 import NotesList from "../assets/noteData";
 
 export default function Content(){
