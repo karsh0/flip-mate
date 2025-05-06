@@ -12,7 +12,7 @@ export default function ScrollBar(){
       {cards.map((url, idx) => (
         <div
           key={idx}
-          className={`min-w-[250px] max-w-[350px] rounded-2xl p-4 text-white relative`}
+          className={`min-w-[150px] max-w-[250px] md:min-w-[250px] md:max-w-[350px] rounded-2xl p-4 text-white relative`}
         >
          <img src={url} alt="" />
         </div>

@@ -7,13 +7,13 @@ export default function Features() {
 
 
         <div className="flex flex-col text-center max-w-4xl gap-5 pb-10">
-            <span className="text-orange-500 font-semibold">POWERFUL FEATURES</span>
-            <span className="text-5xl font-semibold">Sync, search, organize</span>
-            <p className="text-gray-800">Clipmate AI eliminates digital clutter effortlessly. It instantly organizes your bookmarks and content, with zero effort on your part. Find what you need in seconds, not hours. Think of it as your own, very smart, personal search engine.</p>
+            <span className="text-orange-500 text-sm md:text-xl font-semibold">POWERFUL FEATURES</span>
+            <span className="text-3xl md:text-5xl font-semibold">Sync, search, organize</span>
+            <p className="text-gray-800 text-xs md:text-md">Clipmate AI eliminates digital clutter effortlessly. It instantly organizes your bookmarks and content, with zero effort on your part. Find what you need in seconds, not hours. Think of it as your own, very smart, personal search engine.</p>
         </div>
 
 
-        <div className="flex gap-10">
+        <div className="flex flex-col md:flex-row gap-10">
             <Card title="Automatic Sync"
                 description="Automatically sync your Twitter and Reddit bookmarks into Clipmate in realtime. Never worry about context switching and interrupting your flow again."
                 url="https://framerusercontent.com/images/0Seg7lewZL6Ji95rWs17qwWGypo.png" />
@@ -26,15 +26,15 @@ export default function Features() {
         </div>
 
 
-        <div className="flex items-center gap-10 p-3">
+        <div className="flex flex-col md:flex-row items-center md:gap-10 p-3">
             <div>
-                <span className="text-2xl font-semibold">Semantic Search</span>
-                <p className="text-gray-800">Search through your entire knowledge base (Tweets, Reddit posts, Links and PDFs) using semantic search. Always find what you're looking for, even if you've forgotten the exact keyword.</p>
+                <span className="text-xl md:text-2xl font-semibold">Semantic Search</span>
+                <p className="text-gray-500 text-sm md:text-lg">Search through your entire knowledge base (Tweets, Reddit posts, Links and PDFs) using semantic search. Always find what you're looking for, even if you've forgotten the exact keyword.</p>
             </div>
             <img className="rounded-xl w-4xl" src="https://framerusercontent.com/images/9LLDKnUDAEsqSp867mK41PHUbJY.png?scale-down-to=2048" />
         </div>
 
-        <div className="flex gap-10">
+        <div className="flex flex-col md:flex-row gap-10">
             <Card title="Auto-Categorization"
                 description="Use AI to automatically categorize incoming items into collections. Set it up once, provide some feedback and watch as your knowledge base is organized automatically."
                 url="https://framerusercontent.com/images/qKMKqKedMvvmixONxdpGjcbpY.png?scale-down-to=2048" />
@@ -43,7 +43,7 @@ export default function Features() {
                 url="https://framerusercontent.com/images/qKMKqKedMvvmixONxdpGjcbpY.png?scale-down-to=2048" />
         </div>
 
-        <div className="flex justify-between gap-10">
+        <div className="flex flex-wrap justify-between gap-10">
             <Note icon={<NotepadText color="rgb(245, 55, 12)" /> } title="Add Notes to Bookmarks" description="Add notes to your bookmarks so that you always remember why you bookmarked something in the first place."/>
             <Note icon={<Folder color="rgb(245, 55, 12)" /> } title="Organize into Collections" description="Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop."/>
             <Note icon={<Star color="rgb(245, 55, 12)" /> } title="Bookmark Summaries" description="Summaries are automatically generated for every long-form item in your bookmarks."/>

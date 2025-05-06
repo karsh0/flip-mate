@@ -19,8 +19,7 @@ export default function Hero(){
             <div className="w-full relative">
             <img className="w-full" 
             src="https://framerusercontent.com/images/WWbE02xujh7zzNuGyPX7eQbctc.png?scale-down-to=2048" alt="" />
-            <div className="bg-white opacity-85 rounded-t-full w-full h-30 backdrop-blur-2xl z-10 absolute bottom-0"></div>
-            
+            {/* <div className="bg-white opacity-85 rounded-t-full w-full border-0 h-10 md:h-30 backdrop-blur-2xl z-10 absolute bottom-0"></div> */}
             </div>
         </div>
     </div>
