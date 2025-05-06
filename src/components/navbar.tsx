@@ -2,7 +2,8 @@ import { HandCoins } from "lucide-react";
 import Button from "./button";
 
 export default function Navbar(){
-    return <div className="w-full fixed top-0 z-10 h-14 md:h-16 bg-white opacity-90 border-gray-200 border-b-[1px] backdrop-blur-sm px-10 md:px-14 py-5 flex justify-between
+    return <div className="w-full fixed top-0 z-10 h-14 md:h-16 bg-white opacity-95 border-gray-200 border-b-[1px] backdrop-blur-sm 
+    px-8 md:px-14 py-5 flex justify-between
      items-center">
         <div className="text-sm md:text-xl font-semibold flex gap-2">
           <HandCoins/>
